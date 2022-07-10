@@ -12,6 +12,6 @@
 
     // prints the value
     {
-        console.log('Area is: ', area, 'm²')
+        console.log('Area is: ', area, 'm²');
     }
 }
