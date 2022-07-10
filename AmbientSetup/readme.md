@@ -1,6 +1,6 @@
-# Install: https://nodejs.org/en/
+1. Install: https://nodejs.org/en/
 
-# Checking the version
+2. Checking the version
 ```
 node --version
 ```
