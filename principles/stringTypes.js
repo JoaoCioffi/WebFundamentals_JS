@@ -39,3 +39,14 @@ console.log(user.replace(/\w/g,'e')) // RegEx (all words with Global flag)
 
 // Array of strings with split method
 console.log(('user_01,user_02,user_03').split(',')) // uses comma as separator
+
+// Template string
+let template = `
+Welcome, ${user}!
+This is a test...
+`
+console.log(template)
+
+// Arrow Function
+const up = text => text.toUpperCase()
+console.log(`Hey... ${up('be careful')}!`)
