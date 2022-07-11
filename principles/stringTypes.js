@@ -36,3 +36,6 @@ console.log(('username: ').concat('_').concat(user).concat('_'))
 console.log(user.replace(3,'e'))
 console.log(user.replace(/\d/,'e')) // RegEx (all digits)
 console.log(user.replace(/\w/g,'e')) // RegEx (all words with Global flag)
+
+// Array of strings with split method
+console.log(('user_01,user_02,user_03').split(',')) // uses comma as separator
