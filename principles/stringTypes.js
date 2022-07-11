@@ -31,3 +31,8 @@ console.log(user.substring(0,4))
 
 // Concatenate
 console.log(('username: ').concat('_').concat(user).concat('_'))
+
+// Replace
+console.log(user.replace(3,'e'))
+console.log(user.replace(/\d/,'e')) // RegEx (all digits)
+console.log(user.replace(/\w/g,'e')) // RegEx (all words with Global flag)
