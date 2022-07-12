@@ -14,3 +14,16 @@ sale.total = `U$${((sale.qty*product_01.price)-(sale.discount*(sale.qty*product_
 
 console.log(product_01);
 console.log(sale);
+
+
+console.log(typeof Object)
+console.log(typeof new Object)
+console.log(typeof new Object())
+
+const customer = function() {}
+console.log(typeof customer)
+console.log(typeof new customer)
+
+class product {}
+console.log(typeof product)
+console.log(typeof new product) 
