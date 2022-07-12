@@ -13,7 +13,7 @@ node --version
 npm --version
 ```
 
-3. Running script
+3. Running the script
 ```
 node .\hello_world.js
 ```
