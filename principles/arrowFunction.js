@@ -48,3 +48,7 @@ let compareWithThisArrow = param => console.log(this === param)
 compareWithThisArrow(global)
 compareWithThisArrow(module.exports)
 compareWithThisArrow(this)
+
+compareWithThisArrow = compareWithThisArrow.bind(obj)
+compareWithThisArrow(obj)
+compareWithThisArrow(module.exports)
