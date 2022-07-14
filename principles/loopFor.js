@@ -22,3 +22,19 @@ for (let i=0; i<10; i++){
 }
 funcs2[2]()
 funcs2[8]()
+
+let counter = 1
+while(counter <= 10) {
+    console.log(`counter = ${counter}`)
+    counter++
+}
+
+for(let i=1; i<=10; i++) {
+    console.log(`i = ${i}`)
+}
+
+const x = [-1.225, 2.080, -13.291, 8.333, 5.729]
+console.log(`x = [${x}]`)
+for(let i=0; i<x.length; i++) {
+    console.log(`x[${i}] = ${x[i]}`)
+}
