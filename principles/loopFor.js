@@ -38,3 +38,9 @@ console.log(`x = [${x}]`)
 for(let i=0; i<x.length; i++) {
     console.log(`x[${i}] = ${x[i]}`)
 }
+
+const x = [-1.225, 2.080, -13.291, 8.333, 5.729]
+console.log(`x = [${x}]`)
+for(i in x) {
+    console.log(`x[${i}] = ${x[i]}`)
+}
