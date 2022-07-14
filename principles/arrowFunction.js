@@ -1,4 +1,4 @@
-let double = function(a) {
+let double = function (a) {
     return 2 * a
 }
 
@@ -19,3 +19,22 @@ let say = function() {
 say = () => 'hello world'
 say = _=> 'hello world'
 console.log(say())
+
+
+function persona(){
+    this.age = 0
+
+    setInterval(() => {
+        this.age++
+        console.log(this.age)
+    }, 1000)
+}
+
+new persona
+
+
+let compareWithThis = function (param) {
+    console.log(this === param)
+}
+
+compareWithThis(global)
