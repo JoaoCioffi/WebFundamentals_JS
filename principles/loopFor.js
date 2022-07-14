@@ -44,3 +44,21 @@ console.log(`x = [${x2}]`)
 for(let i in x2) {
     console.log(`x[${i}] = ${x2[i]}`)
 }
+
+const customer = {
+    id: 148029,
+    name: 'Raymond Holt',
+    age: 45,
+    address: {
+        country: 'USA',
+        stateOrProvince: 'California',
+        city: 'Los Angeles',
+        street: 'Yellowstone St',
+        number: 1900,
+        zipCode: '1222.500-000'
+    }
+}
+
+for(let attribute in customer) {
+    console.log(`${attribute} = ${customer[attribute]}`)
+}
