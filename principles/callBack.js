@@ -33,3 +33,9 @@ console.log(notasBaixas2)
 // arrow function
 let notasBaixas3 = notas.filter(nota => nota < 7)
 console.log(notasBaixas3)
+
+
+// callback in browser
+document.getElementsByTagName('body')[0].onclick = function (e) {
+    console.log('The event has just occurred')
+}
