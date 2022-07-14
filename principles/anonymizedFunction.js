@@ -11,3 +11,13 @@ printResult(3,4,sum)
 printResult(3,4,function (x,y) {
     return x - y
 })
+printResult(3,4, (x,y) => x * y)
+
+
+const persona = {
+    say: function () {
+        console.log('Hi, there!')
+    }
+}
+
+persona.say()
