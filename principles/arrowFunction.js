@@ -38,3 +38,11 @@ let compareWithThis = function (param) {
 }
 
 compareWithThis(global)
+
+const obj = {}
+compareWithThis = compareWithThis.bind(obj)
+compareWithThis(global)
+compareWithThis(obj)
+
+let compareWithThisArrow = param => console.log(this === param)
+compareWithThisArrow(global)
