@@ -18,3 +18,6 @@ console.log(product_1.getPrice())
 const product_2 = {price: 599.99, discount:0.25}
 console.log(getPrice.call(product_2))
 console.log(getPrice.apply(product_2))
+
+console.log(getPrice.call(product_2, 6.17, 'BRL'))
+console.log(getPrice.apply(product_2, [6.17, 'BRL']))
