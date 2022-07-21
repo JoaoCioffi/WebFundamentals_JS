@@ -17,3 +17,17 @@ console.log(car)
 
 delete car.owner
 console.log(car)
+
+
+function Product(name,price,discount) {
+    this.name = name
+    this.updatedPrice = () => {
+        return (price * (1-discount)).toFixed(2)
+    }
+}
+
+const p1 = new Product('Amberglance Mug',7.63,0.15)
+console.log(p1.updatedPrice())
+
+const p2 = new Product('Jasper Syrup Box',23.99,0.25)
+console.log(p2.updatedPrice())
