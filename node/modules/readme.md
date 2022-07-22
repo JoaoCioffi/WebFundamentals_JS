@@ -2,20 +2,19 @@
 ** MODULES **
 
 📁 main
- |
- |-- 📄 file1.js
- |-- 📄 file2.js
- |-- 📄 file3.js
- --📁 api
-    |
-    |-- 📄 file4.js
-    |-- 📄 file5.js
-    --📁 functions
-       |
-       |-- 📄 file7.js
-       |-- 📄 file8.js
-       --📁 temp
-          |
-          |-- 📄 file9.js
-          |-- 📄 file10.js
+|
+|-- 📄 file1.js
+|-- 📄 file2.js
+|----📁 api
+      |
+      |-- 📄 file3.js
+      |-- 📄 file4.js
+      |----📁 functions
+            |
+            |-- 📄 file5.js
+            |-- 📄 file6.js
+            |----📁 temp
+                 |
+                 |-- 📄 file7.js
+                 |-- 📄 file8.js
 ```
