@@ -1,14 +1,14 @@
-# Modules - NodeJS
-
 ```
-📁
+** MODULES **
+
+📁 main
  |
  |
- --📁
+ --📁 api
     |
     |
-    --📁
+    --📁 functions
        |
        |
-       --📁
+       --📁 temp
 ```
