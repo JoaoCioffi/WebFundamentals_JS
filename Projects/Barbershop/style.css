@@ -1,4 +1,11 @@
+body {
+    background: #CCCCCC; /* defines a standard style for the body */
+}
+
 p {
     text-align:center; /* defines a standard style for paragraphs */
-    background: #ffffff;
-  }
+}
+
+strong em {
+    color: red; /* defines a standard style for strong-em hierarchy */
+}
