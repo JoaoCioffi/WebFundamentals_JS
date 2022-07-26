@@ -1,11 +1,31 @@
 body {
-    background: #CCCCCC; /* defines a standard style for the body */
+    background: #a7a7a7; /* defines a standard style for the body */
+}
+
+#wpp {
+    height: 100%;
+    width: 100%;
+    margin: 2px;
+}
+
+h1 {
+    text-align:center;
+    color: #000000;
+    height: 80px;
+    border: 5px solid  #000000;
+    padding-top: 20px;
 }
 
 p {
     text-align:center; /* defines a standard style for paragraphs */
+    padding-top: 20px;
+    color:#000000;
+}
+
+#mission {
+    font-size:20px;
 }
 
 strong em {
-    color: #FF0000; /* defines a standard style for strong-em hierarchy */
+    color: #000000; /* defines a standard style for strong-em hierarchy */
 }

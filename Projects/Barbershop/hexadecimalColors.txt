@@ -9,4 +9,4 @@ RGB pattern:    # _ _ _ _ _ _
                   |___________ R
 
 0: no color
-F: max pigmentation
+F: max pigmentation 
