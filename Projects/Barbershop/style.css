@@ -1,3 +1,4 @@
 p {
-    text-align:center /* defines a standard style for paragraphs */
+    text-align:center; /* defines a standard style for paragraphs */
+    background: #ffffff;
   }
