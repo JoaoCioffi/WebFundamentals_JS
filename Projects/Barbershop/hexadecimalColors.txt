@@ -1,0 +1,12 @@
+About hexadecimal colors:
+
+RGB pattern:    # _ _ _ _ _ _
+                  | | | | | |_ B
+                  | | | | |___ B
+                  | | | |_____ G
+                  | | |_______ G 
+                  | |_________ R
+                  |___________ R
+
+0: no color
+F: max pigmentation
