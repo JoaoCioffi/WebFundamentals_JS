@@ -1,31 +1,47 @@
 body {
-    background: #a7a7a7; /* defines a standard style for the body */
+    background: #000000; /* defines a standard style for the body */
 }
 
 #wpp {
-    height: 100%;
+    height: 80%;
     width: 100%;
     margin: 2px;
+    box-shadow: 0 0 100px 100px;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+      ) 50 100%;
+}
+
+
+.module {
+    color: rgb(175, 177, 173);
+    border-width: 10px;
+    border-style: solid;
+    padding: 3rem;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+      ) 50 100%;
 }
 
 h1 {
     text-align:center;
-    color: #000000;
+    color: #e4e4e4;
     height: 80px;
-    border: 5px solid  #000000;
     padding-top: 20px;
 }
 
 p {
     text-align:center; /* defines a standard style for paragraphs */
     padding-top: 20px;
-    color:#000000;
+    color: #e4e4e4;
 }
 
 #mission {
     font-size:20px;
 }
 
-strong em {
-    color: #000000; /* defines a standard style for strong-em hierarchy */
+#bottomPage {
+    padding-top: 80px;
 }
