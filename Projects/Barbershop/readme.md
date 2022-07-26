@@ -1,3 +1,3 @@
-![image](https://user-images.githubusercontent.com/60454486/181079519-0c342b47-394f-4b22-8525-981e3d3494c6.png)
+![image](https://user-images.githubusercontent.com/60454486/181129379-655f8f10-7400-40ee-bab6-5b06bc27a536.png)
 
 # Barbershop Project ✂️
