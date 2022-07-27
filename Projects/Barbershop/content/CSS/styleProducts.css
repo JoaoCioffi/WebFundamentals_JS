@@ -1,0 +1,38 @@
+body {
+    background: #ffffff;
+}
+
+header{
+    background: #000000;
+    padding: 20px;
+}
+
+.box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logo{
+    height: 30%;
+    width: 30%;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin:0 0 0 15px; /*UP RIGHT DOWN LEFT*/
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
