@@ -28,33 +28,32 @@
         <main>
             <form> 
                 <label for="nameID">Name</label>
-                <input type="text" id="nameID">
+                <input type="text" id="nameID" class="standardInput">
 
                 <label for="emailID">E-mail</label>
-                <input type="text" id="emailID">
+                <input type="text" id="emailID" class="standardInput">
 
                 <label for="phoneID">Phone</label>
-                <input type="text" id="phoneID">
+                <input type="text" id="phoneID" class="standardInput">
 
                 <label for="msgBox">Type a message</label>
                 <textarea cols="80" rows="10" id="msgBox"></textarea>
+                
                 <div>
                     <p>How would you prefer our contact?</p>
-                    <label for="radio-email">E-mail Contact</label>
-                    <input type="radio" name="contact" value="email" id="radio-email">
-
-                    <label for="radio-phone">Phone Contact</label>
-                    <input type="radio" name="contact" value="phone" id="radio-phone">
-                    
-                    <label for="whatsapp-radio">WhatsApp Contact</label>
-                    <input type="radio" name="contact" value="whatsapp" id="whatsapp-radio">
+                    <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">E-mail Contact</label>
+                    <label for="radio-phone"><input type="radio" name="contact" value="phone" id="radio-phone">Phone Contact</label>    
+                    <label for="whatsapp-radio"><input type="radio" name="contact" value="whatsapp" id="whatsapp-radio">WhatsApp Contact</label>
                 </div>
-                <label><input type="checkbox">Would you like to receive our news by e-mail?</label>
+                
+                <label class="checkbox"><input type="checkbox">Would you like to receive our news by e-mail?</label>
                 <input type="submit" value="Submit">
             </form>
         </main>   
+
          <footer id="contactFooter">
             <p class="copyright">&copy; Copyright Captain K'nuckles</p>
         </footer>
+
     </body>
 </html>
