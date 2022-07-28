@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en-us"></html>
+
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Contact - Captain K'nuckles</title>
+        <link rel="icon" href="../content/metadata/pole.png">
+        <link rel="stylesheet" href="../content/CSS/reset.css">
+        <link rel="stylesheet" href="../content/CSS/styleProductsContact.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="box">
+                <h1><img id="logo" src="../content/metadata/logo.png"></h1>        
+                <nav> 
+                    <ul>
+                        <li><a href="index.html" style="--clr:#ffffff"><span>Home</span></a></li>
+                        <li><a href="products.html" style="--clr:#ffffff"><span>Products</span></a></li>
+                        <li><a href="contact.html" style="--clr:#ffffff"><span>Contact Us</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form> 
+                <label for="nameID">Name</label>
+                <input type="text" id="nameID">
+
+                <label for="emailID">E-mail</label>
+                <input type="text" id="emailID">
+
+                <label for="phoneID">Phone</label>
+                <input type="text" id="phoneID">
+
+                <label for="msgBox">Type a message</label>
+                <textarea cols="80" rows="10" id="msgBox"></textarea>
+                <div>
+                    <p>How would you prefer our contact?</p>
+                    <label for="radio-email">E-mail Contact</label>
+                    <input type="radio" name="contact" value="email" id="radio-email">
+
+                    <label for="radio-phone">Phone Contact</label>
+                    <input type="radio" name="contact" value="phone" id="radio-phone">
+                    
+                    <label for="whatsapp-radio">WhatsApp Contact</label>
+                    <input type="radio" name="contact" value="whatsapp" id="whatsapp-radio">
+                </div>
+                <label><input type="checkbox">Would you like to receive our news by e-mail?</label>
+                <input type="submit" value="Submit">
+            </form>
+        </main>   
+         <footer id="contactFooter">
+            <p class="copyright">&copy; Copyright Captain K'nuckles</p>
+        </footer>
+    </body>
+</html>

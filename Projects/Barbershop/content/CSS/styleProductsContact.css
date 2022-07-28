@@ -42,6 +42,7 @@ nav a:hover {
     background: var(--clr);
     box-shadow: 0 0 35px var(--clr);
     text-decoration: underline;
+    color: rgb(0, 0, 0);
 }
 
 .products {
@@ -85,13 +86,41 @@ nav a:hover {
     margin: 10px 0 0;
 }
 
-footer {
+#productsFooter {
     text-align: center;
     background: url("../metadata/bg.jpg");
     padding: 75px 0;
 }
 
+#contactFooter {
+    text-align: center;
+    background: url("../metadata/bg.jpg");
+    padding: 100px 0;
+}
+
 .copyright {
     color:#ffffff;
     font-size: 10px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
