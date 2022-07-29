@@ -61,10 +61,11 @@ nav a:hover {
     box-sizing: border-box;
     border: #000000 solid 2px;
     border-radius: 20px;
+    box-shadow: 3px 3px rgb(0, 0, 0), -1em 0 0.4em rgb(0, 0, 0);
 }
 
 .products li:hover {
-    border-color: #51ff00;
+    border-color: rgb(0, 243, 182);
 }
 
 .products li:hover h2 {
@@ -112,7 +113,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 18px;
     margin: 0 0 10px;
@@ -127,4 +128,23 @@ form label, form p {
 
 .checkbox {
     margin: 20px 0;
+}
+
+.submit {
+    width: 40%;
+    padding: 15px 0;
+    color: rgb(0, 243, 182);
+    background: #757575;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 3px 3px rgb(0, 0, 0), -1em 0 0.4em rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.submit:hover {
+    color: rgb(0, 243, 182);
+    background: #585858;
+    transform: scale(1.05);
 }

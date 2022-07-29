@@ -14,12 +14,12 @@
 
         <header>
             <div class="box">
-                <h1><img id="logo" src="../content/metadata/logo.png"></h1>        
+                <h1><img id="logo" src="../content/metadata/logo.png" alt="logo"></h1>        
                 <nav> 
                     <ul>
-                        <li><a href="index.html" style="--clr:rgb(255,255,255)"><span>Home</span></a></li>
-                        <li><a href="products.html" style="--clr:rgb(255,255,255)"><span>Products</span></a></li>
-                        <li><a href="contact.html" style="--clr:rgb(255,255,255)"><span>Contact Us</span></a></li>
+                        <li><a href="index.html" style="--clr:rgb(0, 243, 182)"><span>Home</span></a></li>
+                        <li><a href="products.html" style="--clr:rgb(0, 243, 182)"><span>Products</span></a></li>
+                        <li><a href="contact.html" style="--clr:rgb(0, 243, 182)"><span>Contact Us</span></a></li>
                     </ul>
                 </nav>
             </div>
@@ -39,24 +39,27 @@
                 <label for="msgBox">Type a message</label>
                 <textarea cols="80" rows="10" id="msgBox"></textarea>
                 
-                <div>
-                    <p>How would you prefer our contact?</p>
-                    <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">E-mail Contact</label>
-                    <label for="radio-phone"><input type="radio" name="contact" value="phone" id="radio-phone">Phone Contact</label>    
-                    <label for="whatsapp-radio"><input type="radio" name="contact" value="whatsapp" id="whatsapp-radio">WhatsApp Contact</label>
-                </div>
+
+                <fieldset>
+                    <div>
+                        <p>How would you prefer our contact?</p>
+                        <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">E-mail Contact</label>
+                        <label for="radio-phone"><input type="radio" name="contact" value="phone" id="radio-phone">Phone Contact</label>    
+                        <label for="whatsapp-radio"><input type="radio" name="contact" value="whatsapp" id="whatsapp-radio">WhatsApp Contact</label>
+                    </div>
+                </fieldset>
 
                 <div>
-                    <p>Choose a period to schedule your service</p>
+                    <legend>Choose a period to schedule your service</legend>
                     <select>
-                        <option>Morning (from 8:00AM to 11:00AM)</option>
-                        <option>Evening (from 2:00PM to 5:00PM)</option>
-                        <option>Night (from 7:00PM to 9:00PM)</option>
+                        <option style="font-size: 15px;">Morning</option>
+                        <option style="font-size: 15px;">Evening</option>
+                        <option style="font-size: 15px;">Night</option>
                     </select>
                 </div>
                 
                 <label class="checkbox"><input type="checkbox">Would you like to receive our news by e-mail?</label>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="submit">
             </form>
         </main>   
 
