@@ -28,6 +28,14 @@ body {
       ) 50 100%;
 }
 
+.module:before {
+  content: "~ ";
+}
+
+.module:after {
+  content:" ~"
+}
+
 nav {
   position: absolute;
   top: 110px;
@@ -77,6 +85,14 @@ p {
 
 #mission {
     font-size:20px;
+}
+
+.location:before {
+  content: "📌 ";
+}
+
+.location:after {
+  content: " 📌";
 }
 
 #bottomPage {
