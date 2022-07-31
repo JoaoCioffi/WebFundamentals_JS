@@ -39,11 +39,12 @@ shades: `0px 4px 4px rgba(0, 0, 0, 0.16)`
 ```css
 @font-face {
     font-family: 'icones';
-    src: url(../font/icones.ttf);
+    src: url(../font/icons.ttf);
 }
 ```
 
 > Be careful when referencing the file `icons.ttf`
+
 Shirts = `\e900`
 
 Cart = `\e901`
