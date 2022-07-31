@@ -1,5 +1,5 @@
 body {
-    background: #000000; /* defines a standard style for the body */
+    background: linear-gradient(90deg,rgb(0,0,0),rgb(70,70,70),rgb(85, 85, 85)); /* defines a standard style for the body */
 }
 
 #wpp {
