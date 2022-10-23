@@ -13,7 +13,6 @@ printResult(3,4,function (x,y) {
 })
 printResult(3,4, (x,y) => x * y)
 
-
 const persona = {
     say: function () {
         console.log('Hi, there!')
