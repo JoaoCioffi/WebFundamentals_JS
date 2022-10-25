@@ -7,7 +7,6 @@ const product = {
     category: 'utensils'
 }
 
-
 fs.writeFile(__dirname + '/generatedFile.json', JSON.stringify(product), err => {
     console.log(err || 'saved file successfully!')
 })
